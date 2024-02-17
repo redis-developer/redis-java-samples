@@ -1,0 +1,3 @@
+rootProject.name = 'redis-java-samples'
+
+include 'jedis-spring'

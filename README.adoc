@@ -1,0 +1,22 @@
+= Redis Java Samples
+
+Demo projects showing how to interact with Redis in Java.
+
+== Jedis Spring
+
+.Run with gradle
+[source,console]
+----
+./gradlew :jedis-spring:bootRun
+----
+
+.Build and run
+[source,console]
+----
+./gradlew :jedis-spring:build
+java -jar jedis-spring/build/libs/jedis-spring-1.0.jar
+----
+
+.Configure Redis connection
+[source,console]
+java -jar jedis-spring/build/libs/jedis-spring-1.0.jar --redis.uri=redis://my.redis.com:12000
